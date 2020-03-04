@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>API Correios - Cálculo de frete</title>
+</head>
+<body>
+    <main>
+        <form action="calcular.php" method="post">
+            CEP da origem <br>
+            <input type="text" name="cep_origem" id="cep_origem" required> <br>
+            CEP do destino <br>
+            <input type="text" name="cep_destino" id="cep_destino" required> <br>
+            Tipo de envio <br>
+            <select name="tipo_envio" id="tipo_envio" required>
+                <option value="41106">PAC</option>
+                <option value="40010">SEDEX</option>
+            </select> <br>
+            Peso <br>
+            <input type="text" name="peso" id="peso" required> <br>
+            Comprimento <br>
+            <input type="text" name="comprimento" id="comprimento" required> <br>
+            Largura <br>
+            <input type="text" name="largura" id="largura" required> <br>
+            Altura <br>
+            <input type="text" name="altura" id="altura" required> <br>
+            Valor declarado <br>
+            <input type="text" name="valor_declarado" id="valor_declarado" required> <br>
+            <input type="submit" value="Calcular">
+        </form>
+    </main>
+</body>
+</html>
