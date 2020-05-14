@@ -9,31 +9,30 @@
 </head>
 <body>
     <main>
-        <form method="post">
-            <label for="cep_origem">
+        <form action="calculate.php" method="post">
+            <label for="zipCode">
                 CEP da origem
-            </label>
-            <input type="text" name="cep_origem" id="cep_origem" onkeyup="cepMask(this)" required>
-
-            <label for="cep_destino">
+            </label> <br>
+            <input type="text" name="zipCode" id="zipCode" onkeyup="cepMask(this)" required> <br>
+            <label for="zipCodeDest">
                 CEP do destino
-            </label>
-            <input type="text" name="cep_destino" id="cep_destino" onkeyup="cepMask(this)" required> <br>
+            </label> <br>
+            <input type="text" name="zipCodeDest" id="zipCodeDest" onkeyup="cepMask(this)" required> <br>
             Tipo de envio <br>
-            <select name="tipo_envio" id="tipo_envio" required>
+            <select name="sendType" id="sendType" required>
                 <option value="41106">PAC</option>
                 <option value="40010">SEDEX</option>
             </select> <br>
             Peso <br>
-            <input type="text" name="peso" id="peso" onkeyup="decimalMask(this)" required> <br>
+            <input type="text" name="weight" id="weight" onkeyup="decimalMask(this)" required> <br>
             Comprimento <br>
-            <input type="text" name="comprimento" id="comprimento" onkeyup="decimalMask(this)" required> <br>
+            <input type="text" name="lenght" id="lenght" onkeyup="decimalMask(this)" required> <br>
             Largura <br>
-            <input type="text" name="largura" id="largura" onkeyup="decimalMask(this)" required> <br>
+            <input type="text" name="width" id="width" onkeyup="decimalMask(this)" required> <br>
             Altura <br>
-            <input type="text" name="altura" id="altura" onkeyup="decimalMask(this)" required> <br>
+            <input type="text" name="height" id="height" onkeyup="decimalMask(this)" required> <br>
             Valor declarado <br>
-            <input type="text" name="valor_declarado" id="valor_declarado" onkeyup="decimalMask(this)" required> <br>
+            <input type="text" name="price" id="price" onkeyup="decimalMask(this)" required> <br>
             <input type="submit" value="Calcular">
         </form>
     </main>
