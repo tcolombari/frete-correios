@@ -1,5 +1,5 @@
 # frete-correios
-> Calcula o prazo em dias, e o valor da entrega da encomenda através da API do Correios.
+> Calcula o prazo em dias, e o valor da entrega da encomenda através da API do Correios. Documentação oficial da API: 
 
 <p align="center">
     <img src="img/logo.png" width="150px">
@@ -33,7 +33,7 @@ Abra o seu browser, no servidor apache (Para evitar edição do código, use 'lo
 
 ## Exemplo de uso
 
-O uso desse consumo de API, é utilizado para lojas e e-commerces principalemente, para calcular o prazo da entrega da mercadoria e o valor cobrado para esse envio, de acordo com as especificações declaradas.
+O uso desse consumo de API, é utilizado para lojas e e-commerces principalmente, para calcular o prazo da entrega da mercadoria e o valor cobrado para esse envio, de acordo com as especificações declaradas.
 
 ## Criador
 

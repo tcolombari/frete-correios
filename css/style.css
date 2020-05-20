@@ -75,6 +75,10 @@ input:required:focus, input:required{
     box-shadow: none;
 }
 
+#result-section {
+    height: 264px;
+}
+
 table {
     border: 1px solid #fff;
 }
