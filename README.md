@@ -1,7 +1,49 @@
-# api-correios
-Projeto visando o aprendizado do uso de API, neste caso a API do Correios.
+# frete-correios
+> Calcula o prazo em dias, e o valor da entrega da encomenda através da API do Correios.
 
-## Padrões de commit
+<center>
+    <img src="img/logo.png" width="150px">
+</center>
+
+![](img/frete-correios.jpg)
+
+## Dependências
+
+1- Servidor Apache
+
+2- PHP 5 ou superior
+
+3- Git
+
+## Instalação
+
+```sh
+git clone https://github.com/gacairesdev/frete-correios
+```
+
+Abra o seu browser, no servidor apache (Para evitar edição do código, use 'localhost')
+
+<a href="localhost/frete-correios" target="_blank"> localhost/frete-correios </a>
+
+## Exemplo de uso
+
+O uso desse consumo de API, é utilizado para lojas e e-commerces principalemente, para calcular o prazo da entrega da mercadoria e o valor cobrado para esse envio, de acordo com as especificações declaradas.
+
+## Criador
+
+Guilherme Caires – [Linkedin](https://linkedin.com/in/guilherme-caires) – contatogcaires@gmail.com
+
+[https://github.com/gcairesdev](https://github.com/gcairesdev)
+
+## Contribuindo
+
+1. Faça o fork (<https://github.com/gcairesdev/frete-correios/fork>)
+2. Crie a branch da sua modificação (`git checkout -b feature/envios`)
+3. Commit suas mudanças (`git commit -am ':rocket: Add mais tipos de envio'`)
+4. Faça push para sua branch (`git push origin feature/envios`)
+5. Crie um Pull Request
+
+### Commit 
 
 - Usar modo imperativo ("Adiciona feature" não "Adicionando feature" ou "Adicionada feature")
 - Primeira linha deve ter no máximo 70 caracteres
