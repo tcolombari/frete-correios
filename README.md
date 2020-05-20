@@ -1,9 +1,15 @@
 # frete-correios
 > Calcula o prazo em dias, e o valor da entrega da encomenda através da API do Correios.
 
-<center>
+<p align="center">
     <img src="img/logo.png" width="150px">
-</center>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/github/languages/code-size/gcairesdev/frete-correios">
+    <img src="https://img.shields.io/github/last-commit/gcairesdev/frete-correios">
+    <img src="https://img.shields.io/github/repo-size/gcairesdev/frete-correios">
+</p>
 
 ![](img/frete-correios.jpg)
 
