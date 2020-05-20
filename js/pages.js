@@ -53,17 +53,20 @@ $(document).ready(function(){
             success: function (arr) {
                 const sendType = arr[0];
                 const price = arr[1][0];
+                const deadline = arr[2][0] + ' dias';
 
                 $('#result1').text(zipCode)
                 $('#result2').text(zipCodeDest)
                 $('#result3').text(sendType)
                 $('#result4').text(price)
+                $('#result5').text(deadline)
             },
             error: function (responseText) {
                 $('#result1').text('Erro');
                 $('#result2').text('Erro');
                 $('#result3').text('Erro');
                 $('#result4').text('Erro');
+                $('#result5').text('Erro');
                 console.log(responseText);
             }
         });

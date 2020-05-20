@@ -38,7 +38,8 @@ function getFreightInfo($zipCode, $zipCodeDest, $weight, $width, $height, $lengh
         $arr = [
             'error' => false,
             $sendType,
-            $xml->cServico->Valor
+            $xml->cServico->Valor,
+            $xml->cServico->PrazoEntrega
         ];
         echo (json_encode ($arr));
     } else{
