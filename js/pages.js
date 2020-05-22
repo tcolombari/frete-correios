@@ -47,7 +47,7 @@ $(document).ready(function(){
 
         $.ajax({
             method:'post',
-            url: `http://localhost/api-correios/calculate.php?zipCode=${zipCode}&zipCodeDest=${zipCodeDest}&sendType=${sendType}&price=${price}&weight=${weight}&lenght=${lenght}&width=${width}&height=${height}`,
+            url: `http://localhost/frete-correios/calculate.php?zipCode=${zipCode}&zipCodeDest=${zipCodeDest}&sendType=${sendType}&price=${price}&weight=${weight}&lenght=${lenght}&width=${width}&height=${height}`,
             async: true,
             dataType:'json',
             success: function (arr) {
@@ -67,7 +67,6 @@ $(document).ready(function(){
                 $('#result3').text('Erro');
                 $('#result4').text('Erro');
                 $('#result5').text('Erro');
-                console.log(responseText);
             }
         });
     }
