@@ -4,9 +4,6 @@
     $zipCode = str_replace("-","",$zipCode);
     $zipCodeDest = str_replace("-","",$zipCodeDest);
     $weight = str_replace(",",".",str_replace(".","",$weight));
-    $width = str_replace(",",".",str_replace(".","",$width));
-    $lenght = str_replace(",",".",str_replace(".","",$lenght));
-    $height = str_replace(",",".",str_replace(".","",$height));
     $price = str_replace(",",".",str_replace(".","",$price));
 
     $info = getFreightInfo($zipCode, $zipCodeDest, $weight, $width, $height, $lenght, $price, $sendType);
@@ -48,7 +45,6 @@ function getFreightInfo($zipCode, $zipCodeDest, $weight, $width, $height, $lengh
             $xml->cServico->MsgErro
         ];
         echo (json_encode ($arr));
-        echo $xml->cServico->MsgErro;   
     }
 }
 ?>

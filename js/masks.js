@@ -24,3 +24,12 @@ function decimalMask(element) {
     input.value = newPrice;
 }
 
+function sizeMask(element) {
+    var input = element;
+    var value = input.value;
+
+    input.setAttribute('maxlength', 3);
+
+    value = value.replace(/(\D)/g, '');
+    input.value = value;
+}
